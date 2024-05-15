@@ -9,12 +9,12 @@ export type Coords = {
 }
 
 export enum PieceType {
-    whitePawn = "wPwn",
+    whiteBishop = "wBis",
     whiteKnight = "wKni",
+    whiteRook = "wRoo",
+    whitePawn = "wPwn",
     whiteQueen = "wQue",
     whiteKing = "wKin",
-    whiteRook = "wRoo",
-    whiteBishop = "wBis",
 
     blackPawn = "bPwn",
     blackKnight = "bKni",
