@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/bootstrap/dist/css/bootstrap.css');
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: #15013b;
+}
