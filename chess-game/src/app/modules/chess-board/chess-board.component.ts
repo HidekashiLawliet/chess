@@ -22,4 +22,6 @@ export class ChessBoardComponent {
 	public darkSquare(x: number, y: number): boolean {
 		return ChessBoard.darkSquare(x, y);
 	}
+
+	https://youtu.be/fJIsqZmQVZQ?t=2802
 }

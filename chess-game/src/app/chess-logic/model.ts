@@ -40,5 +40,6 @@ export let pieceSkinPath: Readonly<Record<PieceType, string>> = {
     [PieceType.blackRook]: "../../assets/blackRoo.png",
     [PieceType.blackBishop]: ".../../assets/blackBishop.png",
 
-
 }
+
+export type safeSquare = Map<string, Coords[]>;
