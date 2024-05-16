@@ -9,19 +9,19 @@ export type Coords = {
 }
 
 export enum PieceType {
-    whiteBishop = "wBis",
-    whiteKnight = "wKni",
-    whiteRook = "wRoo",
-    whitePawn = "wPwn",
-    whiteQueen = "wQue",
-    whiteKing = "wKin",
+    whiteBishop = "wB",
+    whiteKnight = "wN",
+    whiteRook = "wR",
+    whitePawn = "wP",
+    whiteQueen = "wQ",
+    whiteKing = "wK",
 
-    blackPawn = "bPwn",
-    blackKnight = "bKni",
-    blackQueen = "bQue",
-    blackKing = "bKin",
-    blackRook = "bRoo",
-    blackBishop = "bBis",
+    blackPawn = "bP",
+    blackKnight = "bN",
+    blackQueen = "bQ",
+    blackKing = "bK",
+    blackRook = "bR",
+    blackBishop = "bB",
 }
 
 export let pieceSkinPath: Readonly<Record<PieceType, string>> = {
