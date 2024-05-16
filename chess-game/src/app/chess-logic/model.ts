@@ -24,18 +24,21 @@ export enum PieceType {
     blackBishop = "bBis",
 }
 
-export const pieceSkinPath: Readonly<Record<PieceType, string>> = {
-    [PieceType.whiteBishop]: "/chess-game/src/assets/whiteBishop.png",
-    [PieceType.whiteKnight]: "/chess-game/src/assets/whiteKnight.png",
-    [PieceType.whiteRook]: "/chess-game/src/assets/WhiteRoo.png.png",
-    [PieceType.whitePawn]: "/chess-game/src/assets/whitePawn.png",
-    [PieceType.whiteQueen]: "/chess-game/src/assets/whiteQueen.png",
-    [PieceType.whiteKing]: "/chess-game/src/assets/whiteKing.png",
+export let pieceSkinPath: Readonly<Record<PieceType, string>> = {
 
-    [PieceType.blackPawn]: "/chess-game/src/assets/blackPawn.png",
-    [PieceType.blackKnight]: "/chess-game/src/assets/blackKnight.png",
-    [PieceType.blackQueen]: "/chess-game/src/assets/blackQueen.png",
-    [PieceType.blackKing]: "/chess-game/src/assets/blackKing.png",
-    [PieceType.blackRook]: "/chess-game/src/assets/blackRoo.png",
-    [PieceType.blackBishop]: "/chess-game/src/assets/blackKing.png",
+    [PieceType.whiteBishop]: "../../assets/whiteBishop.png",
+    [PieceType.whiteKnight]: "../../assets/whiteKnight.png",
+    [PieceType.whiteRook]: "../../assets/WhiteRoo.png",
+    [PieceType.whitePawn]: "../../assets/whitePawn.png",
+    [PieceType.whiteQueen]: "../../assets/whiteQueen.png",
+    [PieceType.whiteKing]: "../../assets/whiteKing.png",
+
+    [PieceType.blackPawn]: "../../assets/blackPawn.png",
+    [PieceType.blackKnight]: "../../assets/blackKnight.png",
+    [PieceType.blackQueen]: "../../assets/blackQueen.png",
+    [PieceType.blackKing]: "../../assets/blackKing.png",
+    [PieceType.blackRook]: "../../assets/blackRoo.png",
+    [PieceType.blackBishop]: ".../../assets/blackBishop.png",
+
+
 }

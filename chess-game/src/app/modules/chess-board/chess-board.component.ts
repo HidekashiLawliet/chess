@@ -13,9 +13,9 @@ import { pieceSkinPath } from '../../chess-logic/model';
 })
 export class ChessBoardComponent {
 
-	pieceSkinPath = pieceSkinPath;
 	private chessboard = new ChessBoard();
 	public chessBoardView: (PieceType | null)[][] = this.chessboard.ChessBoardView;
+	public pieceSkinPath = pieceSkinPath;
 	public get playerColor(): Color {
 		return this.chessboard.PlayerColor;
 	}

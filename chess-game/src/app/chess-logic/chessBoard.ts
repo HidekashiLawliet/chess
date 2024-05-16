@@ -28,14 +28,14 @@ export class ChessBoard {
             [null, null, null, null, null, null, null, null,],
             [null, null, null, null, null, null, null, null,],
             [
-                new Rook(Color.black), new Knight(Color.black), new Bishop(Color.black),
-                new Queen(Color.black), new King(Color.black), new Bishop(Color.black),
-                new Knight(Color.black), new Rook(Color.black),
-            ],
-            [
                 new Pawn(Color.black), new Pawn(Color.black), new Pawn(Color.black),
                 new Pawn(Color.black), new Pawn(Color.black), new Pawn(Color.black),
                 new Pawn(Color.black), new Pawn(Color.black),
+            ],
+            [
+                new Rook(Color.black), new Knight(Color.black), new Bishop(Color.black),
+                new Queen(Color.black), new King(Color.black), new Bishop(Color.black),
+                new Knight(Color.black), new Rook(Color.black),
             ],
         ]
     }
