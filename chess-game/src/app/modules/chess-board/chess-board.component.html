@@ -1,7 +1,7 @@
 <div class="chess-board">
     <div *ngFor="let row of chessBoardView; let x = index" class="row">
-        <div *ngFor="let piece of row; let y = index" class="case">
-            {{x + ',' + y}}
+        <div *ngFor="let piece of row; let y = index" class="case"
+            [ngClass]="{'dark': darkSquare(x,y), 'light':!darkSquare(x,y)}">
         </div>
     </div>
 </div>

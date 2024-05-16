@@ -16,4 +16,7 @@ export class ChessBoardComponent {
 	public get playerColor(): Color {
 		return this.chessboard.PlayerColor;
 	}
+	public darkSquare(x: number, y: number): boolean {
+		return ChessBoard.darkSquare(x, y);
+	}
 }

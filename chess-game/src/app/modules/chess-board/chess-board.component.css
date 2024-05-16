@@ -2,8 +2,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
-    width: 480px;
-    height: 480px;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    background-color: rgba(252, 252, 252, 0.041);
+    border-radius: 25px;
 }
 
 .rotated {
@@ -51,12 +54,20 @@
     color: white;
 }
 
-.dark {
-    background-color: #779AAF
+/* .dark {
+    background-color: #2d4a5c
 }
 
 .light {
-    background-color: #D9E4E8;
+    background-color: #c0e3f0;
+} */
+
+.dark {
+    background-color: rgb(35, 0, 100)
+}
+
+.light {
+    background-color: rgb(88, 0, 252);
 }
 
 .piece {
