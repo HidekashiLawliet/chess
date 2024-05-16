@@ -2,6 +2,8 @@
     <div *ngFor="let row of chessBoardView; let x = index" class="row">
         <div *ngFor="let piece of row; let y = index" class="case"
             [ngClass]="{'dark': darkSquare(x,y), 'light':!darkSquare(x,y)}">
+
+            <img class="piece" *ngIf="piece" [src]="pieceSkinPath" alt="piece" class />
         </div>
     </div>
 </div>

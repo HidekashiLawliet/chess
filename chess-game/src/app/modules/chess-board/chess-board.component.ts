@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ChessBoard } from '../../chess-logic/chessBoard';
 import { Color, PieceType } from '../../chess-logic/model';
+import { pieceSkinPath } from '../../chess-logic/model';
 
 @Component({
 	selector: 'app-chess-board',
@@ -11,6 +12,8 @@ import { Color, PieceType } from '../../chess-logic/model';
 	styleUrl: './chess-board.component.css'
 })
 export class ChessBoardComponent {
+
+	pieceSkinPath = pieceSkinPath;
 	private chessboard = new ChessBoard();
 	public chessBoardView: (PieceType | null)[][] = this.chessboard.ChessBoardView;
 	public get playerColor(): Color {
